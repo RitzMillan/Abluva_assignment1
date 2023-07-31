@@ -1,0 +1,3 @@
+export const INITIAL = "INITIAL";
+export const BREED_SELECTED = "BREED_SELECTED";
+export const ANIMAL_SELECTED = "ANIMAL_SELECTED"; 

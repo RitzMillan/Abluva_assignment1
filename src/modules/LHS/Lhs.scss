@@ -1,0 +1,25 @@
+.lhs-wraper {
+    height: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+
+    @media(max-width: 1200px) {
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 0px;
+
+    }
+
+}
+
+.breed-wraper {
+    margin-bottom: 20px;
+    cursor: pointer;
+
+    .selected {
+        text-decoration: underline;
+    }
+
+}
