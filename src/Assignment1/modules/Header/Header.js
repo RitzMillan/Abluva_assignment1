@@ -20,21 +20,21 @@ function Header() {
         </div>
         <div>
           <Button
-            variant={animal == 0 ? "outlined" : "text"}
+            variant={Number(animal) === 0 ? "outlined" : "text"}
             startIcon={""}
             onClick={() => handleAnimalSelect(0)}
           >
             Cats
           </Button>
           <Button
-            variant={animal == 1 ? "outlined" : "text"}
+            variant={Number(animal) === 1 ? "outlined" : "text"}
             startIcon={""}
             onClick={() => handleAnimalSelect(1)}
           >
             Dogs
           </Button>
           <Button
-            variant={animal == 2 ? "outlined" : "text"}
+            variant={Number(animal) === 2 ? "outlined" : "text"}
             startIcon={""}
             onClick={() => handleAnimalSelect(2)}
           >

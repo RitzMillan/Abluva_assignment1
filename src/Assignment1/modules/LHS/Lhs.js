@@ -32,7 +32,7 @@ function Lhs() {
     return (
       <>
         <div className="breed-wraper">
-          <p className={sbreed == props.i ? 'selected' : ''} onClick={() => handleBreedSelect(props.i)}>{props.item.Breed}</p>
+          <p className={Number(sbreed) === props.i ? 'selected' : ''} onClick={() => handleBreedSelect(props.i)}>{props.item.Breed}</p>
         </div>
       </>
     );

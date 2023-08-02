@@ -1,0 +1,32 @@
+.App {
+  
+    .t-header {
+        height: 8vh;
+        border: 1px solid black;
+    }
+
+    .t-lhs, .t-body, .t-rhs {
+        height: 86vh;
+        border: 1px solid black;
+    }
+
+    .t-footer {
+        height: 5vh;
+        border: 1px solid black;
+    }
+
+    @media(max-width: 1200px) {
+        .t-lhs {
+            height: 10vh;
+            border: 1px solid black;
+        }
+        .t-body {
+            height: 50vh;
+            border: 1px solid black;
+        }
+        .t-rhs {
+            height: 30vh;
+            border: 1px solid black;
+        }
+      }
+}
